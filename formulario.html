@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulario / Lista Clientes - Tráfego </title>
+    <link rel="stylesheet" href="./formulario.css">
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><strong>Formulário de Clientes</strong></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome Completo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Email</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Telefone</label>
+                </div> 
+                <br>
+                <p>Sexo:</p>
+                    <input id="feminimo" type="radio" name="genero" value="feminimo" required>
+                    <label for="feminino">Feminino</label>
+                <br>
+                    <input id="masculino" type="radio" name="genero" value="masculino" required>
+                    <label for="masculino">Masculino</label>
+                <br>
+                    <input id="outro" type="radio" name="genero" value="outro" required>
+                    <label for="outro">Outro</label>
+
+                    <br><br>
+                    <div class="inputBox">
+                        <label for="data_nascimento"><strong>Data de Nascimento</strong></label>
+                        <input type="date" name="data_nascimento" id="data_nascimento" required>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                        <label for="cidade" class="labelInput">Cidade</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" name="estado" id="estado" class="inputUser" required>
+                        <label for="estado" class="labelInput">Estado</label>
+                    </div>
+                    <br>
+
+                    <p>De onde veio:</p>
+                    <input id="instagram" type="radio" name="redesocial" value="instagram" required>
+                    <label for="instagram">Instagram</label>
+
+                    <input id="facebook" type="radio" name="redesocial" value="facebook" required>
+                    <label for="facebook">Facebook</label>
+
+                    <input id="google" type="radio" name="redesocial" value="google" required>
+                    <label for="google">Google</label>
+
+                    <br><br><br>
+
+                    <div class="inputBox">
+                        <input type="text" name="redesocial" id="outros" class="inputUser" required>
+                        <label for="outros" class="labelInput">Outros:</label>
+                    </div>
+                    <br><br>
+
+                    <div class="inputBox">
+                        <input type="text" name="produto" id="produto" class="inputUser" required>
+                        <label for="produto" class="labelInput">Produto ou serviço desejado.</label>
+                    </div>
+                    <br>
+
+                    <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
